@@ -1,4 +1,4 @@
-//Ben Sherman, 9.08.11, Velocity Calculator (with input)
+//Ben Sherman, 9.08.11, Velocity Calculator (with input). Added to Git on 9-26-11 for a test. 
 //To use, run the program. Type the values when prompted, and remember to change the unit of measurement to fit your question. 
 import java.util.Scanner; //imports the scanner utility
 class VCI {
