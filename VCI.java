@@ -8,9 +8,9 @@ class VCI {
 			
 			Scanner scan = new Scanner (System.in); //initializes the scanner command
 			
-		String UNIT; //declares the variable UNIT
-		UNIT = "m/s"; //Sets the value of UNIT to the unit of measurement
-			System.out.println ("The unit is: " + UNIT + "\n");	
+		String Unit; //declares the variable UNIT
+		Unit = "m/s"; //Sets the value of UNIT to the unit of measurement
+			System.out.println ("The unit is: " + Unit + "\n");	
 			
 			System.out.print("Type the first distance "); //prompts the user to type the first distance
 		
@@ -43,7 +43,7 @@ class VCI {
 	
 		System.out.println ("The equation used to formulate the velocity is " + AVGD + "/" + AVGT + "\n");
 		
-		System.out.println ("The velocity is:" + (D2-(D1)) / (T2-(T1)) + UNIT); //Calculates velocity by measuring the change in distance and diving by the change in time, then prints the value and adds the unit of measurement
+		System.out.println ("The velocity is:" + (D2-(D1)) / (T2-(T1)) + Unit); //Calculates velocity by measuring the change in distance and diving by the change in time, then prints the value and adds the unit of measurement
 	
 	}
 }
